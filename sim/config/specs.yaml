@@ -1,0 +1,12 @@
+models:
+  - name: tiny-gpt
+    params: 124M
+    requires_gpu: false
+    vram: 2GB
+    tokens_per_sec: 250
+
+  - name: small-gpt
+    params: 1.3B
+    requires_gpu: true
+    vram: 8GB
+    tokens_per_sec: 100
